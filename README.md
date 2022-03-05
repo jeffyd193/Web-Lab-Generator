@@ -39,32 +39,40 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+------------------ DEMO APPLICATION ------------------------
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Outline:
+will use components of different sections of websites
+-headers/navs
+-landings
+-sections
+-footer
+-interior pages
+-apps
+---quicklinks
+---social feeds
+---signups
+---contact Forms
 
-### Code Splitting
+## MAIN FUNCTIONS
+function is to make website creation quick and easy to tag and populate with content
+-function to rotate out each section(use buttons on sides)
+-function to add sections
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Future Plans
+-Crud index Page
+-Interior Page Creation
+-on the fly Pricing 
+-Tailwind.css Commericial implmentation
+-Django implmentation
+-Forms
+-Logins
+-CMS website
+-E-commerce
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Update v0.5.1:
+Added Create and Delete Functions on Sections
+DO NOT USE EDIT FUNCTION. 
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
