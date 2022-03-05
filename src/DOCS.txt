@@ -1,0 +1,43 @@
+----------------------------------------------------------------DEMO APPLICATION----------------------------------------------------------------------------------------
+
+Outline:
+will use components of different sections of websites
+-headers/navs
+-landings
+-sections
+-footer
+-interior pages
+-apps
+---quicklinks
+---social feeds
+---signups
+---contact Forms
+
+MAIN FUNCTIONS
+function is to make website creation quick and easy to tag and populate with content
+-function to rotate out each section(use buttons on sides)
+-function to add sections
+
+
+Future Plans
+-Crud index Page
+-Interior Page Creation
+-on the fly Pricing 
+-Tailwind.css Commericial implmentation
+-Django implmentation
+-Forms
+-Logins
+-CMS website
+-E-commerce
+
+
+Test 1:
+implementing test starting with Navigation
+got carousel Working but putting the sections inside seems to be tedious
+this is because of the css on the carousel and that bootstrap is conflicting with names 
+
+Solutions?
+-changing out css names on custom carousel
+-Try using bootstrap carousel instead?
+
+Test 2:

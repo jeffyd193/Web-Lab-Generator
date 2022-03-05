@@ -1,0 +1,14 @@
+ .slider-img{
+    object-fit: cover;
+    height:600px;
+    margin: auto;
+  } 
+
+  #slider-caption{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 60px;
+    font-size: 80px;
+    align-items: baseline;
+  }
