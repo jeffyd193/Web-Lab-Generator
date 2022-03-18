@@ -41,3 +41,8 @@ Solutions?
 -Try using bootstrap carousel instead?
 
 Test 2:
+make text Changeable
+documentation for this can be found here https://brianmin.com/react-edit-text/
+
+make color Changeable
+documentation for this can be found here https://casesandberg.github.io/react-color/

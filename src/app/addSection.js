@@ -3,6 +3,8 @@ import { Link, useHistory } from 'react-router-dom';
 
 import { GlobalContext } from './GlobalState';
 
+import NoPreview from './images/noimage.jpg';
+
 import FeaturedCard from '../components/sections/featured_card/featuredCard';
 import FeaturedCardPreview from './images/feature-card.jpg';
 
@@ -14,6 +16,8 @@ import SectionFloriaPreview from './images/section-florida.jpg';
 
 import SectionGeorgia from '../components/sections/section_georgia/SectionGeorgia';
 import SectionGeorgiaPreview from './images/section-ga.jpg';
+
+import SectionHawaii from '../components/sections/section_hawaii/SectionHawaii';
 
 
 export const AddSection = () => {
@@ -100,6 +104,46 @@ export const AddSection = () => {
                               <button href="#" className="bg-green-400 w-mt hover:bg-green-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"                
                                 value={sections}
                                 onClick={() => setSection(SectionGeorgia)}
+                                type="submit"
+                                >Add Section</button>
+                              </td>
+                            </tr>
+                             {/* ----------------------------Item List END COPY------------------------ */}
+                             {/* ----------------------------Item List Start COPY------------------------ */}          
+                            <tr>
+                              <td className="px-6 py-4 whitespace-nowrap">
+                                <div className="flex items-center">
+                                  <div className="flex-shrink-0 h-40 w-50 shadow">
+                                    <img className="h-40 w-full rounded-full" src={NoPreview} alt="" />
+                                  </div>
+                                  
+                                </div>
+                              </td>
+                              <td className="px-6 py-4 whitespace-nowrap">
+                                <div className="text-sm text-gray-900">Section Hawaii</div>
+                                <div className="text-sm text-gray-500">Tiles with Description List</div>
+                              </td>
+                              <td className="px-6 py-4 whitespace-nowrap">
+                              <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-red-100 text-black-800"> Constrution </span>
+                                {/* Component Development Status
+                              <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-blue-100 text-white-800"> Beta </span>
+                                <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800"> Active </span>
+                                <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-yellow-100 text-black-800"> Testing </span>
+
+                                */}
+
+                              </td>
+                              <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">S00-P0</td>
+                              {/* Pricing Levels as Structure
+                                    S = Labels that it is sections
+                                    01 = is the Template Id for Developers
+                                    P = Premuim Price
+                                    1 = Premium Price level
+                              */}
+                              <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                              <button href="#" className="bg-green-400 w-mt hover:bg-green-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"                
+                                value={sections}
+                                onClick={() => setSection(SectionHawaii)}
                                 type="submit"
                                 >Add Section</button>
                               </td>

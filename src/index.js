@@ -15,36 +15,33 @@ import './index.css';
 import HeaderFlorida from "./components/headers/header_florida/header";
 import HeaderGeorgia from "./components/headers/header_georgia/header";
 import HeaderColorado from "./components/headers/header_colorado/header";
+import HeaderHawaii from "./components/headers/header_hawaii/header";
 
 //Landings
 import LandingSlider from './components/landing/landing_slider/slider';
 import LandingVideo from './components/landing/landing_video/video';
 import LandingHawaii from './components/landing/landing_hawaii/landingHawaii';
+import LandingFlorida from './components/landing/landing_florida/landingFlorida';
 
-//Sections
-//import SectionFaq from './components/sections/faq/faq'; 
-import CollapseList from './components/sections/collapse_list/collapseList';
-import FeaturedCard from './components/sections/featured_card/featuredCard';
-import QuickLinks from './components/sections/quick_links/quickLinks';
-import SectionFlorida from './components/sections/section_florida/sectionFlorida';
+//Sections Located in app folder
 
 //Footers
 import FooterFlorida from './components/footers/footer_florida/footer';
 import FooterColorado from './components/footers/footer_colorado/footer';
 import FooterGeorgia from './components/footers/footer_georgia/footer';
+import FooterHawaii from './components/footers/footer_hawaii/footer';
 
 //Scripts
 // Cookie Consent is Required on every site Docs found at https://www.npmjs.com/package/react-cookie-consent 
 import CookieConsent from "react-cookie-consent";
 
-// **********************TEST**TEST***********
+// **********************ALPHA**ALPHA***********
 
 import SectionApp from './app/app';
 
 
-// **********************TEST**TEST***********
+// **********************ALPHA**ALPHA***********
 
-//IMPORTANT WE NEED TO PURCHASE TAILWIND CSS AT https://tailwindui.com
  //To start project install dependencies
  //npm install mdb-react-ui-kit
  //npm install react-bootstrap bootstrap@5.1.3
@@ -77,6 +74,10 @@ export default function App() {
                 <HeaderColorado/>
             </Carousel.Item>
 
+            <Carousel.Item>
+                <HeaderHawaii/>
+            </Carousel.Item>
+
         </Carousel>
 
         {/* -----------------------
@@ -98,20 +99,16 @@ export default function App() {
                 <LandingHawaii/>
             </Carousel.Item>
 
+            <Carousel.Item>
+                <LandingFlorida/>
+            </Carousel.Item>
+
         </Carousel>
-
-
-
-        {/* -----------------------
-
-            Section Components Update with CRUD System
-        
-        --------------------- */}
 
 
 {/* ---------------------------------------------
 
-            Test Section CRUD  
+            Section CRUD  
         
 -------------------------------------------------- */}
 
@@ -135,6 +132,11 @@ export default function App() {
             <Carousel.Item>
                 <FooterGeorgia/> 
             </Carousel.Item>
+
+            <Carousel.Item>
+                <FooterHawaii/> 
+            </Carousel.Item>
+
 
         </Carousel>
 {/* -----------------------
