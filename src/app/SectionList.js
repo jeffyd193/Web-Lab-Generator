@@ -5,6 +5,7 @@ import { GlobalContext } from './GlobalState';
 
 export const SectionList = () => {
     const { sections, removeSection } = useContext(GlobalContext);
+    console.log("sections", sections)
     return (
       <React.Fragment>
         {sections.length > 0 ? (
@@ -14,17 +15,8 @@ export const SectionList = () => {
                 className="flex items-center justify-center mb-10"
                 key={section.id}
               >
-                
-                  <p className="text-gray-900 leading-none w-full">
-                    {section.section}
-                  </p>
-                  <p className="text-gray-600">
-                    {section.designation}
-                  </p>
-                  <span className="inline-block text-sm font-semibold mt-1">
-                    {section.location}
-                  </span>
-                
+                {section.section}
+                  
                 <div className="edit-btns text-right px-4 py-2 m-2">
                 <Link
                   to={`/edit/${section.id}`}

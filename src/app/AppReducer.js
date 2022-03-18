@@ -10,10 +10,10 @@ export default function appReducer(state, action) {
                 const updatedSection = action.payload;
 
                 const updatedSections = state.sections.map((section) => {
-                    if(section.id === updatedSection.id) {
-                        return updatedSection;
-                    }
-                    return section;
+                  if (section.id === updatedSection.id) {
+                    return updatedSection;
+                  }
+                  return section;
                 });
 
                 return {

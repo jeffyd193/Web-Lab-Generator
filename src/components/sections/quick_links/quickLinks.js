@@ -7,6 +7,7 @@ import CardTwo from './images/card-2.jpg';
 import CardThree from './images/card-3.jpg';
 
 const QuickLinks = () => {
+  
     return (
 
         <Container className="quick-links-container">

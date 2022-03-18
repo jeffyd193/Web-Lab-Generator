@@ -58,7 +58,7 @@ will use components of different sections of websites
 ## MAIN FUNCTIONS
 function is to make website creation quick and easy to tag and populate with content
 -function to rotate out each section(use buttons on sides)
--function to add sections
+-function to Add, Edit and Delete sections
 
 
 ## Future Plans
@@ -72,7 +72,10 @@ function is to make website creation quick and easy to tag and populate with con
 -CMS website
 -E-commerce
 
-## Update v0.5.1:
+## Update v0.1.1:
 Added Create and Delete Functions on Sections
 DO NOT USE EDIT FUNCTION. 
+
+## Update v0.2.0:
+Added Edit Function
 
